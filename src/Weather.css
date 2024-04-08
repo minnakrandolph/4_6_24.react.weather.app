@@ -1,0 +1,12 @@
+.Weather {
+    background-color: rgb(255, 255, 254);
+    border: 1px solid #dadde1;
+}
+
+li {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+}
