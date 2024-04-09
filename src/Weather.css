@@ -1,5 +1,5 @@
 .Weather {
-    background-color: rgb(255, 255, 254);
+    background-color: rgb(254, 254, 254);
     border: 1px solid #dadde1;
     padding: 16px;
     margin: 30px;
@@ -39,10 +39,10 @@
     margin-left: 5px;
 }
 
-
-
 .Weather li {
     list-style: none;
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
