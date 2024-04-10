@@ -12,8 +12,9 @@ export default function Weather() {
             className="form-control"
             autoFocus="on"
             />
+
             </div>
-            <div classname="col-3">
+            <div className="col-3">
             <input type="submit" value="Search" className="btn btn-primary w-100" 
             />        
             </div>
@@ -25,7 +26,7 @@ export default function Weather() {
         <li>Partly Sunny</li>
        </ul>
        <div className="row">
-        <div classname="col-6">
+        <div className="col-6">
             <div className="clearfix">
        <img 
        src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
