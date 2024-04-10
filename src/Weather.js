@@ -4,7 +4,7 @@ import "./Weather.css";
 export default function Weather() {
     return (
     <div className="Weather">
-        <form>
+        <form id="search-form mb-3">
             <div className="row">
                 <div className="col-9">
             <input type="search" 
@@ -14,7 +14,7 @@ export default function Weather() {
             />
             </div>
             <div classname="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" 
+            <input type="submit" value="Search" className="btn btn-primary w-100" 
             />        
             </div>
             </div>

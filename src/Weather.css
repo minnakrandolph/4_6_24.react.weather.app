@@ -16,6 +16,9 @@
 .Weather form {
     margin-bottom: 20px;
 }
+
+
+
 .Weather img {
  height: 64px;
  width: 64px;
@@ -51,6 +54,9 @@
     margin: 0;
     padding: 0;
 }
-.row {
+.Weather .row {
+    display: flex;
+}
+.Weather .footer {
     display: flex;
 }
