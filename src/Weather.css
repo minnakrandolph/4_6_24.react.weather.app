@@ -39,7 +39,7 @@
     font-weight: 400;
     position: relative;
     top: -34px;
-    margin-left: 5px;
+    
 }
 
 .Weather li {
@@ -55,8 +55,5 @@
     padding: 0;
 }
 .Weather .row {
-    display: flex;
-}
-.Weather .footer {
     display: flex;
 }

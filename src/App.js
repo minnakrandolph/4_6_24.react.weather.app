@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <div className="container">
     
-    <Weather />
-    <div class="d-flex justify-content-center">
+    <Weather defaultCity="New York"/>
+    <div className="d-flex justify-content-center">
      <footer>
       This project was created by <a href="x"> Minna K. Randolph </a> and is open sourced  
      <a href="https://github.com/minnakrandolph/4_6_24.react.weather.app" rel="noreferrer noopener"
