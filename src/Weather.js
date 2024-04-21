@@ -3,6 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 
 export default function Weather(props) {
@@ -50,14 +51,15 @@ export default function Weather(props) {
                 <div className="col-6">
                     <div className="clearfix">
                         <div className="float-left">
-                        <WeatherIcon 
-                        code={weatherData.icon}
+                        <WeatherIcon code={weatherData.icon}
                          />
                         </div>
-            
-              <span className="temperature">{Math.round(weatherData.temperature)}</span>
-              <span className="unit">°C</span>
-                
+            <div className="float-left">
+                <WeatherTemperature celcius={props.weatherData.temperature} />
+                </div>
+              <span className="temperature">{Math.round(props.data.temperature)}</span>
+              <span className="unit">°C | {" "}</span>
+                </div>
                 </div>
                 </div>
                 <div className="col-6">
@@ -68,15 +70,13 @@ export default function Weather(props) {
                     </ul>
                 </div>
                </div>
-                </div>
+                
               );    
     } else {
         const apiKey ="5aac6d0188c6f17d6d2bbe6591b6fef0";
         let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=imperial`;
         axios.get(apiUrl).then(handleResponse);
     }
-
-        return "Loading...";
 }
 
     
