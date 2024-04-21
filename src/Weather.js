@@ -62,9 +62,9 @@ export default function Weather(props) {
                 </div>
                 <div className="col-6">
                     <ul>
-                        <li>Percipitation: {weatherData.percipitation}..%</li>
-                        <li>Humidity: {weatherData.humidity}..</li>
-                        <li>Wind: {weatherData.wind}km/h..</li>
+                        <li>Percipitation: {weatherData.percipitation}</li>
+                        <li>Humidity: {weatherData.humidity}</li>
+                        <li>Wind: {weatherData.wind}km/h</li>
                     </ul>
                 </div>
                </div>
@@ -72,7 +72,7 @@ export default function Weather(props) {
               );    
     } else {
         const apiKey ="5aac6d0188c6f17d6d2bbe6591b6fef0";
-        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=celsius`;
+        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
         axios.get(apiUrl).then(handleResponse);
     }
 }
