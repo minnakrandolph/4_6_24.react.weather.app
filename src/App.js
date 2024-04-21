@@ -10,10 +10,10 @@ function App() {
     <Weather defaultCity="New York"/>
     <div className="d-flex justify-content-center">
      <footer>
-      This project was created by <a href="x"> Minna K. Randolph </a> and is open sourced  
+      This project was created by   <a href="x">  Minna K. Randolph </a>   and is open sourced  
      <a href="https://github.com/minnakrandolph/4_6_24.react.weather.app" rel="noreferrer noopener"
      className="">
-        Github repository </a> 
+          Github repository</a> 
       </footer>
       </div>
       </div>
