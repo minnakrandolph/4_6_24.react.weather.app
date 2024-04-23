@@ -27,7 +27,7 @@ import ReactAnimatedWeather from "react-animated-weather";
         <ReactAnimatedWeather
         icon={codeMapping[props.code]}
         color="orange"
-        size={52}
+        size={props.size}
         animate={true}
         />
     );
