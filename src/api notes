@@ -1,0 +1,11 @@
+
+API Keys and notes  for WeatherForecast.js
+
+
+api key = 210d99196a88b9257ed8cb3535a0a0c5
+apiUrl = https://api.shecodes.io/weather/v1/forecast?query={query}&key=210d99196a88b9257ed8cb3535a0a0c5;
+
+//use this one for WeatherForecast
+apiKey w/ coordinates = https://api.openweathermap.org/data/2.5/onecall?lat=40.7128&lon=74.0060&appid=210d99196a88b9257ed8cb3535a0a0c5
+
+lat & Lon for New York City =  lat = 40.7128° N,  lon = 74.0060° W
