@@ -23,9 +23,9 @@ function fahrenheit() {
         {Math.round(props.celsius)}
         </span>
     <span className="unit">
-       <a href="/" onClick={showFahrenheit}>  
+       
        °F 
-       </a>
+       
     </span>
     </div>
  );
