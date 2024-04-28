@@ -15,8 +15,6 @@ import ReactAnimatedWeather from "react-animated-weather";
       "09n": "RAIN",
       "10d": "RAIN",
       "10n": "RAIN",
-      "11d": "THUNDERSTORM",
-      "11n": "THUNDERSTORM",
       "13d": "SNOW",
       "13n": "SNOW",
       "50d": "FOG",
